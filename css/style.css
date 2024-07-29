@@ -124,3 +124,51 @@ p{
 .banner_wrapper{
     padding-top: 100px;
 }
+
+
+
+/* ------------Card section start----------*/
+.card{
+      border-radius: 20px !important ;
+}
+
+/* ------------Service section start----------*/
+
+.service_wrapper span{
+    color:red;
+}
+
+.service_wrapper .service_phone{
+    max-width: 70%;
+}
+
+
+/* ------------Blog section start----------*/
+
+.blog_wrapper_news{
+    background-color: var(--bg-blue);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.blog_wrapper_news .newsletter{ 
+    width: 50%;
+    margin:auto;
+
+}
+button{
+    border:none;
+}
+
+.blog_wrapper_news .form-control{
+    background-color: var(--bg-dark-blue);
+    border-color: var(--bg-dark-blue);
+    border:solid;
+    border-radius: 26px;
+    color:white;
+    padding: 10px 32px;
+}
+
+.blog_wrapper_news  input::placeholder{
+    color:var(--bg-white);
+}

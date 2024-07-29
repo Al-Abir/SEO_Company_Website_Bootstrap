@@ -1,11 +1,16 @@
 @media (max-width:1400px){
 
+    .service_wrapper .service_phone{
+        max-width: 80%;
+    }
 
 }
 
 
 @media(max-width:1200px){
-
+    .service_wrapper .service_phone{
+        max-width: 100%;
+    }
 
 }
 
@@ -30,6 +35,12 @@
         background-color: var(--bg-white);
         padding-bottom: 15px;
     }
+
+
+.blog_wrapper_news .newsletter{ 
+    width: 100%;
+    margin:auto;
+}
 
 }
 
