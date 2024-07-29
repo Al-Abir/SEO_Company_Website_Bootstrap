@@ -93,10 +93,16 @@ p{
 
 
 /* ------------navbar section start----------*/
-
+.header-wrapper .navbar{
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    background-color: #fff;
+    
+}
 .header-wrapper .navbar .navbar-brand img{
      max-width: 150px;
      height: auto;
+       
+
 }
 
 .header-wrapper .navbar-toggler{
@@ -171,4 +177,31 @@ button{
 
 .blog_wrapper_news  input::placeholder{
     color:var(--bg-white);
+}
+
+
+/* ------------Contract section start----------*/
+
+.contact_wrapper input,
+.contact_wapper textarea{
+    background-color: var(--bg-white);
+    border-color: var(--bg-gray);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 15px 21px 15px 21px;
+}
+
+/* ------------footer section start----------*/
+
+
+.footer_wrapper a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.footer_wrapper a:hover{
+    color:var(--secondary-color);
 }

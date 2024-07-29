@@ -8,9 +8,14 @@
 
 
 @media(max-width:1200px){
+
+
     .service_wrapper .service_phone{
         max-width: 100%;
     }
+   
+
+
 
 }
 
@@ -35,13 +40,17 @@
         background-color: var(--bg-white);
         padding-bottom: 15px;
     }
-
+   
+  .header-wrapper .handle{
+    max-width: 120px;
+     align-items: center;
+  }
 
 .blog_wrapper_news .newsletter{ 
     width: 100%;
     margin:auto;
 }
-
+  
 }
 
 @media(max-width:768px){
@@ -70,8 +79,6 @@
         flex-direction: column-reverse;  
      }
      .header-wrapper .navbar .navbar-brand img{
-        max-width: 120px;
-    
         height: auto;
         text-align: center;
    }
